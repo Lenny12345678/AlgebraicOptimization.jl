@@ -2,7 +2,7 @@ module OpenFlowGraphs
 
 export FlowGraph, underlying_graph, FG, OpenFG, to_problem,
     node_incidence_matrix, dual_decomposition, nvertices, nedges, random_open_flowgraph, SBM_flowgraph, test,
-    add_wire_with_junction!, helper, bipartite_random_graph, SBM_UWD, SBM_flowgraph
+    add_wire_with_junction!, helper, bipartite_random_graph, SBM_UWD
 
 using ..FinSetAlgebras
 import ..FinSetAlgebras: hom_map, laxator
